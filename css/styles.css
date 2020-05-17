@@ -2,6 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 .top-nav{
     display: flex;
@@ -27,8 +32,42 @@ body{
 .top-links a{
     text-decoration: none;
     color: #b6b6b6;
-    font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     font-size: 13px;
     padding: 5px;
+}
+
+.mid-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center;
+    padding: 0 17px 0 17px;
+}
+
+.mid-left {
+    display: flex;
+}
+
+.mid-links a{
+    text-decoration: none;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    font-size: 15.5px;
+    padding-right: 24px;
+
+}
+
+.search{
+    background: none;
+    border: none;
+    border-left: 1px solid rgb(209, 208, 208);
+    height: 48px;
+    width: 48px;
+}
+
+.search-icon{
+    width: 20px;
+    filter: brightness(190%);
+    transform: scaleX(-1);
 }
