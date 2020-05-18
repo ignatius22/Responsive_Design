@@ -226,8 +226,8 @@ main{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
-
 }
+
 .latest-news-img{
     width: 100%;
 }
@@ -299,6 +299,13 @@ main{
             font-size: 20px;
         }
 
+        .latest-images{
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        .latest-news-title{
+            font-size: 14px;
+        }
     }
 
 
