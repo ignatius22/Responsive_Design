@@ -252,14 +252,11 @@ main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 30px;
     margin-top: 25px;
 }
 
-.latest-funding-img div{
-    width: 100%;
-  
-}
+
 
 .latest-fr-right{
     text-decoration: none;
@@ -271,26 +268,66 @@ main{
 .heading-4{
     background-color: #f42;
     color: white;
-    padding: 12px;
-    text-align: center;
+    padding: 12px 12px 12px 80px;
     font-weight: 700;
     text-transform: capitalize;
     font-size: 1.05em;
 }
 
 .investment{
-    width: 100%;
-    height: 9vh;
+    padding: 12px 0 12px 80px;
+    height: 40px;
     background-color: #FDEAE7;
+    text-transform: uppercase;
 }
+
+.investment h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.investment h5{
+    font-size: 12px;
+    color: grey;
+}
+
 .details{
-   width: 100%;
-   height: 20vh;
+   height: 150px;
    background-color:#FEFAF8;
    display: flex;
    flex-direction: column;
-   align-items: center;
    justify-content: space-around;
+}
+
+.two-links{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid #FACAC3;
+}
+
+.two-links a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #555555;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+.story-link{
+    margin: 0 12px 0 12px;
+    line-height: 1.2em;
+}
+
+.story-link a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #555555;
+    text-transform: capitalize;
+
 }
 
 
@@ -445,6 +482,10 @@ main{
             float: left;
             margin-right: 8px;
 
+        }
+
+        .latest-funding-img{
+            grid-template-columns: repeat(1,1fr);
         }
 
 }
