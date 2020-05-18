@@ -115,7 +115,7 @@ main{
     grid-column: 1/2;
     grid-row: 1/3;
     border: 1px #ccc solid;
-    background: linear-gradient(150deg, rgb(255, 31, 42) 0%, rgba(255,255,255,0) 100%), url("../resources/main-pic.png");
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/main-pic.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,7 +160,7 @@ main{
 .main-article-2{
     grid-column: 2/3;
     border: 1px #ccc solid;
-    background-image: url("../resources/Sprint_image.jpg");
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/Sprint_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -178,7 +178,7 @@ main{
 .main-article-3{
     grid-column: 2/3;
     border: 1px #ccc solid;
-    background-image: url("../resources/robot.jpg");
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/robot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -235,11 +235,11 @@ main{
         }
         
         .main-article-1{
-            background: url("../resources/main-pic.png");
+            background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/main-pic.png");
             background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-            }
+            background-size: cover;
+            background-position: center;
+        }
 
         .a1-logo{
             display: none;
