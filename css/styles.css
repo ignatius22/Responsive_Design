@@ -6,6 +6,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .nav-logo {
@@ -269,11 +270,7 @@ h1{
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-<<<<<<< HEAD
         }
-=======
-            }
->>>>>>> f7ed0dc489805ef03b46179f90ba5cfcb80928c0
 
         .a1-logo{
             display: none;
