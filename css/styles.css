@@ -214,7 +214,7 @@ main{
     margin-bottom: 25px;
 }
 
-.latest-news{
+.latest-news,.latest-funding{
     max-width: 1150px;
     width: 97%;
     margin: 100px auto;
@@ -243,6 +243,25 @@ main{
     margin: 5px 0;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-funding-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    margin-top: 25px;
+}
+
+.latest-funding-img div{
+    width: 100%;
+    height:40vh;
+    border: 1px red solid;
+    color: gray;
+}
 
 @media only screen and (max-width: 1020px) {
         .nav-logo{
