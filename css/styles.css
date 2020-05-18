@@ -240,7 +240,7 @@ main{
 .latest-news-author{
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 
@@ -365,6 +365,24 @@ main{
 
         .a1-title{
             font-size: 20px;
+        }
+
+        .latest-images{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .latest-news-1{
+            margin: 5px 5px 5px 0;
+        }
+
+        .latest-news-img{
+            width: 75px;
+            height: 75px;
+            object-fit: cover;
+            float: left;
+            margin-right: 8px;
+
         }
 
 }
