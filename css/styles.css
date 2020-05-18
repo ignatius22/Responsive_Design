@@ -226,8 +226,8 @@ main{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
-
 }
+
 .latest-news-img{
     width: 100%;
 }
@@ -240,7 +240,7 @@ main{
 .latest-news-author{
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .header{
@@ -260,7 +260,7 @@ main{
     width: 100%;
     height:40vh;
     border: 1px red solid;
-    color: gray;
+    background-color: gray;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -318,6 +318,13 @@ main{
             font-size: 20px;
         }
 
+        .latest-images{
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        .latest-news-title{
+            font-size: 14px;
+        }
     }
 
 
@@ -377,6 +384,24 @@ main{
 
         .a1-title{
             font-size: 20px;
+        }
+
+        .latest-images{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .latest-news-1{
+            margin: 5px 5px 5px 0;
+        }
+
+        .latest-news-img{
+            width: 75px;
+            height: 75px;
+            object-fit: cover;
+            float: left;
+            margin-right: 8px;
+
         }
 
 }
