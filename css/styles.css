@@ -210,27 +210,20 @@ main{
 .latest-news{
     max-width: 1150px;
     width: 97%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 
-
-
-
 .latest-images{
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
 
 }
-
-.latest-images div{
-    border: 1px black solid;
-    background-color: purple;
+.latest-news-img{
+    width: 100%
 }
-
-
 
 
 @media only screen and (max-width: 1020px) {
