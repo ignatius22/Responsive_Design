@@ -206,6 +206,36 @@ main{
     padding: 5px 20px 20px 20px;
 }
 
+
+.latest-news{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h1{
+    align-self: flex-start;
+}
+
+.latest-news h1{
+    display: inline-block;
+}
+
+.latest-images{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 1.2em;
+}
+
+.latest-images div{
+    width: 270px;
+    height: 30vh;
+    border: 1px black solid;
+    background-color: purple;
+}
+
+
+
+
 @media only screen and (max-width: 1020px) {
         .nav-logo{
             width: 106px;
@@ -239,7 +269,11 @@ main{
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+<<<<<<< HEAD
         }
+=======
+            }
+>>>>>>> f7ed0dc489805ef03b46179f90ba5cfcb80928c0
 
         .a1-logo{
             display: none;
@@ -262,6 +296,9 @@ main{
         }
 
     }
+
+
+
 
 @media only screen and (max-width: 850px){
         .top-nav{
