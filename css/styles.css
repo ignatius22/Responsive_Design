@@ -207,6 +207,13 @@ main{
     padding: 5px 20px 20px 20px;
 }
 
+.latest-news-main-title{
+    color: #f42;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
 .latest-news{
     max-width: 1150px;
     width: 97%;
@@ -222,7 +229,18 @@ main{
 
 }
 .latest-news-img{
-    width: 100%
+    width: 100%;
+}
+
+.latest-news-title{
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.latest-news-author{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    margin: 5px 0;
 }
 
 
