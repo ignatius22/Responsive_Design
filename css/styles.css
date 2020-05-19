@@ -342,14 +342,8 @@ main{
 }
 
 .sectors-grid-item{
-    border: 1px black solid;
-    background-color: gray;
-    height: 700px;
-
-
+    margin-top: 80px;
 }
-
-
 
 .sectors-most-popular-1{
     background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/Amazon.jpg");
@@ -403,9 +397,28 @@ main{
     visibility: hidden;
 }
 
+.sectors-latest{
+    background-color: #FEF3F2;
+}
 
+.sectors-latest-text{
+    padding: 10px;
+}
 
+.sectors-latest h2{
+    color: #f42;
+    text-transform: uppercase;
+    font-size: 14px;
 
+}
+
+.sectors-latest a{
+    color: #f42;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+}
 
 
 @media only screen and (max-width: 1020px) {
