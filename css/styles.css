@@ -217,7 +217,8 @@ main{
 .latest-news,
 .latest-funding,
 .sectors,
-.sectors-2{
+.sectors-2,
+.latest-deals{
     max-width: 1150px;
     width: 97%;
     margin: 100px auto;
@@ -428,6 +429,12 @@ main{
 .sectors-latest-text img{
     width: 30%;
     height: 50px;
+}
+
+
+.deals-header{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 1020px) {
