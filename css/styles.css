@@ -59,7 +59,7 @@ body{
     text-decoration: none;
     color: #AAAAAA;
     text-transform: uppercase;
-    font-size: 15.5px;
+    font-size: 14.5px;
     padding-right: 24px;
 
 }
@@ -352,30 +352,16 @@ main{
 .sectors-most-popular{
     margin-top: 10px;
     width: 100%;
-    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB-Avatar-Featured-368x276.jpg");
+    background-size: contain;
 }
 
 .sectors-most-popular img{
     width: 100%;
+    visibility: hidden;
 }
 
-.sectors2-item{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-}
-.sectors2-item div{
-    border: 1px black solid;
-    background-color: gray;
-    /*height: 400px;*/
-    width: 100%;
-}
-.sectors2-item-1{
-    
-    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB-Avatar-Featured-368x276.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}
+
 
 
 
@@ -453,11 +439,14 @@ main{
         .latest-fund-4{
             display: none;
         }
+        .sectors-grid{
+            grid-template-columns: repeat(2,1fr);
+        }
 }
 
 
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 780px){
         .top-nav{
             display: none;
         }
@@ -532,6 +521,9 @@ main{
         }
 
         .latest-funding-img{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .sectors-grid{
             grid-template-columns: repeat(1,1fr);
         }
 
