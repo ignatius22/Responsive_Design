@@ -450,6 +450,24 @@ main{
     width: 100%;
 }
 
+.latest-deals-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.price{
+    margin-top: 5px;
+    color: #676767;
+}
+
+.discount{
+    color: #C2C2C2;
+    text-decoration: line-through;
+    font-size: 11px;
+}
 
 @media only screen and (max-width: 1020px) {
         .nav-logo{
@@ -527,6 +545,9 @@ main{
         }
         .sectors-grid{
             grid-template-columns: repeat(2,1fr);
+        }
+        .latest-deals-grid{
+            grid-template-columns: repeat(3,1fr);
         }
 }
 
