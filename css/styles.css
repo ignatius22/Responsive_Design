@@ -346,18 +346,18 @@ main{
 }
 
 .sectors-most-popular-1{
-    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/Amazon.jpg");
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB.jpg");
     background-size: contain;
 }
 
 .sectors-most-popular-2{
-    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB.jpg");
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/google.png");
     background-size: contain;
 }
 
 
 .sectors-most-popular-3{
-    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/snag.png");
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/elon.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -421,7 +421,14 @@ main{
  
 
 }
+.sectors-latest-text {
+    display: flex;
+}
 
+.sectors-latest-text img{
+    width: 30%;
+    height: 50px;
+}
 
 @media only screen and (max-width: 1020px) {
         .nav-logo{
