@@ -439,6 +439,9 @@ main{
     margin-bottom: 12px;
 }
 
+.deals-header h4{
+    color: #f42;
+}
 
 .latest-deals-grid{
     display: grid;
@@ -656,5 +659,20 @@ main{
         .sectors-grid{
             grid-template-columns: repeat(1,1fr);
         }
+
+        .latest-deals-grid{
+            display: flex;
+            flex-direction: column;
+        }
+        .latest-deals-grid-item{
+            display: flex;
+        }
+        .latest-deals-grid-item img{
+            width: 75px;
+            height: 75px;
+            margin: 0  10px 10px 0;
+            object-fit: cover;
+        }
+
 
 }
