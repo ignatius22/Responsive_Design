@@ -349,17 +349,60 @@ main{
 
 }
 
-.sectors-most-popular{
-    margin-top: 10px;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB-Avatar-Featured-368x276.jpg");
+
+
+.sectors-most-popular-1{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/Amazon.jpg");
     background-size: contain;
+}
+
+.sectors-most-popular-2{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB.jpg");
+    background-size: contain;
+}
+
+
+.sectors-most-popular-3{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/snag.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sectors-most-popular-4{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sectors-most-popular-5{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sectors-most-popular-6{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sectors-most-popular-7{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sectors-most-popular-8{
+    background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design5.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .sectors-most-popular img{
     width: 100%;
     visibility: hidden;
 }
+
 
 
 
