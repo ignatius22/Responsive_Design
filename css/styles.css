@@ -436,7 +436,20 @@ main{
 .deals-header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 12px;
 }
+
+
+.latest-deals-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap: 1.2em;
+}
+.latest-deals-grid img{
+    width: 100%;
+}
+
 
 @media only screen and (max-width: 1020px) {
         .nav-logo{
