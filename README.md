@@ -11,20 +11,6 @@ This page is a basic clone of The Next Web, this project has been an exercise of
 - HTML5
 - CSS3
 
-## Live Demo
-
-Live link here: 
-> A Design Teardown of the Smashing Magazines homepage.
-
-![](images/Screenshot.png)
-
-Page is a basic greyscale teardown of the smashing magazine homepage, the darker the shade of grey represents the more focus is on that element of the page. 
-
-## Built With
-
-- HTML5
-- CSS3
-
 
 ## Live Demo
 
