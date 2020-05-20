@@ -248,9 +248,11 @@ main{
     width: 100%;
 }
 
-.latest-news-title{
+.latest-news-title a{
     font-weight: 700;
     margin: 5px 0;
+    color: black;
+    text-decoration: none;
 }
 
 .latest-news-author{
