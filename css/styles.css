@@ -466,6 +466,22 @@ main {
   object-fit: cover;
 }
 
+.sectors-additional-articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectors-additional-article{
+    padding: 6px 0 6px 14px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.sectors-additional-article a{
+    font-size: 12px;
+    color: #555555;
+    text-decoration: none;
+}
+
 .deals-header {
   display: flex;
   justify-content: space-between;
