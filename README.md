@@ -1,4 +1,4 @@
-#Responsive Design
+# Responsive Design
 
 > A clone of The Next Web website.
 
