@@ -398,6 +398,38 @@ main{
     visibility: hidden;
 }
 
+.sectors-most-popular{
+    position: relative;
+}
+
+.sectors-img-title{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    line-height: 1.4em;
+}
+
+.sectors-section-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sectors-title a{
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.sectors-author{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .sectors-latest{
     background-color: #FEF3F2;
     height: 100px;
