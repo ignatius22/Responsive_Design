@@ -492,6 +492,43 @@ main{
     color:white;
 }
 
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.social-icon{
+    margin: 8px;
+    border-radius: 50%;
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon img{
+    filter: invert(100%);
+    height: auto;
+    width: 20px;
+
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-link a{
+    text-transform: uppercase;
+    color: #AAAAAA;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 5px;
+}
 
 
 
@@ -574,6 +611,9 @@ main{
         }
         .latest-deals-grid{
             grid-template-columns: repeat(3,1fr);
+        }
+        .social-icon{
+            margin: 4px;
         }
 }
 
