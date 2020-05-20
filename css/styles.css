@@ -621,15 +621,15 @@ main{
             display: none;
         }
 
-        .a1-title{
+        .a1-title a{
             font-size: 35px;
         }
 
-        .a2-title{
+        .a2-title a{
             font-size: 20px;
         }
 
-        .a3-title{
+        .a3-title a{
             font-size: 20px;
         }
 
@@ -717,7 +717,7 @@ main{
             margin-top: 5px;
         }
 
-        .a1-title{
+        .a1-title a{
             font-size: 20px;
         }
 
