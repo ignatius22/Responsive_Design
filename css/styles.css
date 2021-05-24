@@ -437,58 +437,18 @@ main {
   margin-top: 80px;
 }
 
-.sectors-most-popular-1 {
+.sectors-most-popular-1,
+.sectors-most-popular-2,
+.sectors-most-popular-3,
+.sectors-most-popular-4,
+.sectors-most-popular-5,
+.sectors-most-popular-6,
+.sectors-most-popular-7,
+.sectors-most-popular-8 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/FB.jpg");
   background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/FB.jpg");
   background-size: contain;
-}
-
-.sectors-most-popular-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/google.png");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/google.png");
-  background-size: contain;
-}
-
-.sectors-most-popular-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/elon.jpg");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/elon.jpg");
   background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.sectors-most-popular-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/design.png");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.sectors-most-popular-5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/design2.png");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design2.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.sectors-most-popular-6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/design3.png");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design3.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.sectors-most-popular-7 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/design4.jpg");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design4.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.sectors-most-popular-8 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 42, 0)), to(rgba(0, 0, 0, 0.9))), url("../resources/design5.jpg");
-  background: linear-gradient(180deg, rgba(255, 31, 42, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url("../resources/design5.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .sectors-most-popular img {
