@@ -8,8 +8,8 @@ This page is a basic clone of The Next Web, this project has been an exercise of
 
 ## Built With
 
-- HTML5
-- CSS3
+- HTML
+- SCSS
 
 
 ## Live Demo
