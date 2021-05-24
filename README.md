@@ -14,7 +14,7 @@ This page is a basic clone of The Next Web, this project has been an exercise of
 
 ## Live Demo
 
-Live link here: https://rawcdn.githack.com/ignatius22/Responsive_Design/7ffbf9416436234415625d532273a23c230d311e/index.html
+Live link: https://rawcdn.githack.com/ignatius22/Responsive_Design/341b167c3a460bc8d55f0684334b685c13102c91/index.html
 
 
 ## Authors
